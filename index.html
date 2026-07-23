@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vadym Shapovalov — веброзробник. Портфоліо</title>
+<meta name="description" content="Vadym Shapovalov — веброзробник. Створюю сучасні преміальні сайти на чистому HTML, CSS та JavaScript.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="container nav">
+    <a href="#top" class="logo" aria-label="На головну"><span class="logo-mark">&lt;/&gt;</span> Vadym Shapovalov</a>
+    <nav class="nav-links" aria-label="Основна навігація">
+      <a href="#services">Послуги</a>
+      <a href="#portfolio">Роботи</a>
+      <a href="#process">Процес</a>
+      <a href="#contact">Контакти</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-ghost btn-sm">Обговорити проєкт</a>
+      <button class="nav-toggle" aria-label="Відкрити меню" aria-expanded="false" aria-controls="mobile-panel">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-panel" id="mobile-panel" aria-label="Мобільна навігація">
+  <a href="#services">Послуги</a>
+  <a href="#portfolio">Роботи</a>
+  <a href="#process">Процес</a>
+  <a href="#contact">Контакти</a>
+</nav>
+<div class="scrim"></div>
+
+<main id="main-content">
+
+  <!-- 1. Hero -->
+  <section class="hero" aria-label="Вступ">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">веброзробник · HTML / CSS / JavaScript</p>
+        <h1 class="hero-title">
+          Створюю сайти,<br>
+          які <span class="accent">виглядають дорожче</span><br>
+          за свою ціну
+        </h1>
+        <p class="hero-sub">
+          Мене звати Vadym Shapovalov, я верстаю сайти на чистому HTML, CSS і
+          JavaScript. Люблю, коли сторінка виглядає доглянуто, швидко
+          працює і не потребує зайвих технологій там, де вони не потрібні.
+        </p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">Переглянути роботи</a>
+          <a href="#contact" class="btn btn-ghost">Зв'язатися</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><b>3</b><span>демонстраційні проєкти</span></div>
+          <div class="hero-stat"><b>100%</b><span>адаптивна верстка</span></div>
+          <div class="hero-stat"><b>0</b><span>важких фреймворків</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-card">
+          <img class="portrait-img" src="images/portrait-vadym.jpg" alt="Vadym Shapovalov, веброзробник, за роботою в ноутбуком">
+        </div>
+        <div class="hero-badge">
+          <span class="dot"></span>
+          <span>Готовий до нових проєктів</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Послуги -->
+  <section class="section-alt" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">послуги</p>
+        <h2 class="section-title reveal" id="services-heading">Чим можу бути корисним</h2>
+      </div>
+      <div class="reveal">
+        <div class="service-row">
+          <span class="service-num">01</span>
+          <h3>Лендінг під ключ</h3>
+          <p>Односторінковий сайт для послуги чи особистого бренду, від структури до публікації</p>
+        </div>
+        <div class="service-row">
+          <span class="service-num">02</span>
+          <h3>Багатосторінковий сайт</h3>
+          <p>Сайт клініки, студії чи невеликого бізнесу з кількома розділами та каталогом послуг</p>
+        </div>
+        <div class="service-row">
+          <span class="service-num">03</span>
+          <h3>Адаптивна верстка</h3>
+          <p>Перетворення макету на чистий, семантичний HTML і CSS, що однаково добре виглядає всюди</p>
+        </div>
+        <div class="service-row">
+          <span class="service-num">04</span>
+          <h3>Анімації та інтерактив</h3>
+          <p>Плавні появи елементів при скролі, hover-ефекти та дрібні деталі, які роблять сайт живим</p>
+        </div>
+        <div class="service-row">
+          <span class="service-num">05</span>
+          <h3>Оптимізація та SEO</h3>
+          <p>Прискорення завантаження, мета-теги та базова технічна підготовка для пошукових систем</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Переваги -->
+  <section class="section-alt" id="advantages" aria-labelledby="advantages-heading">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">мої переваги</p>
+        <h2 class="section-title reveal" id="advantages-heading">Що ви отримуєте, працюючи зі мною</h2>
+      </div>
+      <div class="grid-4 reveal-stagger">
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></div>
+          <h3>Швидкість</h3>
+          <p>Чистий код без зайвих залежностей дозволяє сторінці відкриватися миттєво навіть на повільному інтернеті</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+          <h3>Адаптивність</h3>
+          <p>Перевіряю, як сайт виглядає на телефоні, планшеті та комп'ютері, а не лише в одному вікні браузера</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <h3>Чіткі терміни</h3>
+          <p>Одразу узгоджую реалістичний план роботи, тож ви завжди знаєте, на якому етапі перебуває проєкт</p>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z"/></svg></div>
+          <h3>Підтримка після запуску</h3>
+          <p>Готовий допомогти з правками, невеликими оновленнями чи підключенням аналітики вже після здачі сайту</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Приклади моїх робіт -->
+  <section id="portfolio" aria-labelledby="portfolio-heading">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">приклади моїх робіт</p>
+        <h2 class="section-title reveal" id="portfolio-heading">Демонстраційні проєкти</h2>
+      </div>
+
+      <div class="honest-note reveal">
+        <p>
+          Ці проєкти створені як демонстрація моїх навичок у веброзробці.
+          Вони показують, як я працюю з дизайном, адаптивною версткою,
+          анімаціями, структурою сайту та користувацьким досвідом. Я
+          відкритий до співпраці та готовий створити подібний сайт для
+          вашого бізнесу.
+        </p>
+      </div>
+
+      <!-- Проєкт 1: Emma Johnson -->
+      <article class="project-card reveal">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span class="terminal-dot red"></span><span class="terminal-dot yellow"></span><span class="terminal-dot green"></span>
+            <span class="browser-url">vadymshapovalov2050-ui.github.io/Emma-Johnson</span>
+          </div>
+          <div class="browser-shot"><a href="https://vadymshapovalov2050-ui.github.io/Emma-Johnson/" target="_blank" rel="noopener noreferrer" class="shot-link" aria-label="Переглянути демо-сайт Emma Johnson — курси англійської"><img src="images/project-emma-johnson.jpg" alt="Скріншот сайту репетитора англійської мови Emma Johnson" loading="lazy" class="shot-emma"></a></div>
+        </div>
+        <div class="project-body">
+          <div class="project-kicker"><span class="badge-demo">демонстраційний проєкт</span></div>
+          <h3>Emma Johnson — курси англійської</h3>
+          <p class="desc">
+            Лендінг для репетитора англійської мови з онлайн-уроками для
+            дітей, підлітків і дорослих. Сторінка робить акцент на
+            спокійній типографіці та довірі з перших секунд перегляду.
+          </p>
+          <ul class="project-features">
+            <li>Адаптивна сітка на CSS Grid під усі розміри екранів</li>
+            <li>Плавні появи блоків при скролі без зовнішніх бібліотек</li>
+            <li>Легкий parallax-ефект у hero-блоці для відчуття глибини</li>
+            <li>Семантична розмітка та базові ARIA-атрибути</li>
+          </ul>
+          <div class="project-actions">
+            <a href="https://vadymshapovalov2050-ui.github.io/Emma-Johnson/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Переглянути сайт</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Проєкт 2: SmileCare -->
+      <article class="project-card reveal">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span class="terminal-dot red"></span><span class="terminal-dot yellow"></span><span class="terminal-dot green"></span>
+            <span class="browser-url">vadymshapovalov2050-ui.github.io/SmileCare.ua</span>
+          </div>
+          <div class="browser-shot"><a href="https://vadymshapovalov2050-ui.github.io/SmileCare.ua/" target="_blank" rel="noopener noreferrer" class="shot-link" aria-label="Переглянути демо-сайт SmileCare — стоматологічна клініка"><img src="images/project-smilecare.jpg" alt="Скріншот сайту стоматологічної клініки SmileCare" loading="lazy" class="shot-smilecare"></a></div>
+        </div>
+        <div class="project-body">
+          <div class="project-kicker"><span class="badge-demo">демонстраційний проєкт</span></div>
+          <h3>SmileCare — стоматологічна клініка</h3>
+          <p class="desc">
+            Багатосекційний сайт стоматології з розділами послуг, лікарів
+            і запису на прийом. Тут я приділив основну увагу доступності
+            та коректному відображенню на різних пристроях.
+          </p>
+          <ul class="project-features">
+            <li>Розширена розмітка ARIA для людей з обмеженими можливостями</li>
+            <li>Багато медіа-запитів для пікселевої адаптивності інтерфейсу</li>
+            <li>Анімовані появи секцій послуг і лікарів під час прокрутки</li>
+            <li>Логічна ієрархія заголовків для кращого SEO</li>
+          </ul>
+          <div class="project-actions">
+            <a href="https://vadymshapovalov2050-ui.github.io/SmileCare.ua/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Переглянути сайт</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Проєкт 3: AURELIA -->
+      <article class="project-card reveal">
+        <div class="browser-frame">
+          <div class="browser-bar">
+            <span class="terminal-dot red"></span><span class="terminal-dot yellow"></span><span class="terminal-dot green"></span>
+            <span class="browser-url">vadymshapovalov2050-ui.github.io/AURELIA</span>
+          </div>
+          <div class="browser-shot"><a href="https://vadymshapovalov2050-ui.github.io/AURELIA/" target="_blank" rel="noopener noreferrer" class="shot-link" aria-label="Переглянути демо-сайт AURELIA — масажна студія"><img src="images/project-aurelia.jpg" alt="Скріншот сайту масажної студії AURELIA" loading="lazy" class="shot-aurelia"></a></div>
+        </div>
+        <div class="project-body">
+          <div class="project-kicker"><span class="badge-demo">демонстраційний проєкт</span></div>
+          <h3>AURELIA — масажна студія</h3>
+          <p class="desc">
+            Атмосферний сайт приватної spa-студії з великим фоновим
+            зображенням у hero-блоці. Тут головне завдання було передати
+            відчуття спокою ще до того, як відвідувач прогорне сторінку.
+          </p>
+          <ul class="project-features">
+            <li>Виразний hero-блок із плавною появою заголовка</li>
+            <li>Кінематографічні переходи між секціями під час скролу</li>
+            <li>Темна преміальна колірна гама з теплими акцентами</li>
+            <li>Чіткий заклик до дії з переходом до запису на сеанс</li>
+          </ul>
+          <div class="project-actions">
+            <a href="https://vadymshapovalov2050-ui.github.io/AURELIA/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Переглянути сайт</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 5. Мій підхід до роботи -->
+  <section id="about" aria-labelledby="about-heading">
+    <div class="container about-grid">
+      <div class="approach-visual reveal">
+        <div class="av-backdrop" aria-hidden="true">
+          <span class="av-orb av-orb-gold"></span>
+          <span class="av-orb av-orb-blue"></span>
+          <span class="av-grid-bg"></span>
+        </div>
+        <svg class="av-connector" viewBox="0 0 2 400" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="avConnectorGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="var(--gold)" stop-opacity=".6"/>
+              <stop offset="1" stop-color="var(--blue)" stop-opacity=".6"/>
+            </linearGradient>
+          </defs>
+          <path d="M1,0 L1,400" stroke="url(#avConnectorGrad)" stroke-width="1.5" stroke-dasharray="3 7"/>
+        </svg>
+
+        <div class="av-stack">
+          <div class="av-preview" aria-hidden="true">
+            <span class="av-preview-block block-nav"></span>
+            <div class="av-preview-main">
+              <span class="av-preview-line line-lg"></span>
+              <span class="av-preview-line line-md"></span>
+              <span class="av-preview-line line-sm"></span>
+            </div>
+            <span class="av-preview-block block-cta"></span>
+          </div>
+
+          <div class="approach-window">
+            <div class="browser-bar">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+              <span class="approach-bar-title">index.html</span>
+            </div>
+            <div class="approach-body">
+              <div class="approach-code">
+                <div><span class="tag">&lt;section</span> <span class="attr">class</span>=<span class="str">"hero"</span><span class="tag">&gt;</span></div>
+                <div>&nbsp;&nbsp;<span class="tag">&lt;h1&gt;</span><span class="txt">Сайт, що працює на вас</span><span class="tag">&lt;/h1&gt;</span></div>
+                <div>&nbsp;&nbsp;<span class="tag">&lt;p&gt;</span><span class="txt">Швидко. Акуратно. Без зайвого.</span><span class="tag">&lt;/p&gt;</span></div>
+                <div><span class="tag">&lt;/section&gt;</span></div>
+                <div>&nbsp;</div>
+                <div><span class="attr">display</span>: <span class="str">grid</span>;</div>
+                <div><span class="attr">gap</span>: <span class="str">clamp(1rem,4vw,3rem)</span>;<span class="approach-cursor" aria-hidden="true"></span></div>
+              </div>
+              <div class="approach-mock" aria-hidden="true">
+                <span class="mock-header"></span>
+                <span class="mock-side"></span>
+                <div class="mock-main">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="mock-footer"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="approach-chip chip-html">HTML</div>
+        <div class="approach-chip chip-css">CSS</div>
+        <div class="approach-chip chip-js">JS</div>
+        <div class="approach-status">
+          <span class="dot"></span>
+          <span>Адаптивно на всіх екранах</span>
+        </div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">мій підхід до роботи</p>
+        <h2 class="section-title reveal" id="about-heading">Принципи роботи над сайтом</h2>
+        <div style="margin-top:1.6rem;">
+          <p class="reveal">
+            Коли я створюю сайт, для мене важливий не лише зовнішній
+            вигляд, а те, що реально отримає ваш бізнес після запуску.
+          </p>
+          <p class="reveal">
+            Сайт відкривається миттєво на телефоні, планшеті чи
+            комп'ютері: швидкість і адаптивність закладаю в основу
+            верстки, а не додаю в останню чергу.
+          </p>
+          <p class="reveal">
+            Дизайн залишається сучасним і акуратним: продумана
+            типографіка, послідовні відступи та логічна структура
+            розділів, у якій відвідувач одразу знаходить потрібну
+            інформацію.
+          </p>
+          <p class="reveal">
+            Під капотом — чистий HTML, CSS і JavaScript без зайвих
+            бібліотек. Це не лише прискорює сайт, а й робить його
+            простим у подальшій підтримці: додати новий розділ чи
+            оновити текст можна без залучення розробника для кожної
+            дрібниці.
+          </p>
+        </div>
+        <div class="tag-row reveal">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS Grid / Flexbox</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Адаптивний дизайн</span>
+          <span class="tag">Простота підтримки</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Процес роботи -->
+  <section id="process" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">як проходить робота</p>
+        <h2 class="section-title reveal" id="process-heading">Чотири кроки від ідеї до запуску</h2>
+      </div>
+      <div class="process-track">
+        <div class="process-steps reveal-stagger">
+          <div class="process-step reveal"><div class="num">01</div><h3>Брифінг</h3><p>Обговорюємо мету сайту, аудиторію та бажаний стиль</p></div>
+          <div class="process-step reveal"><div class="num">02</div><h3>Прототип</h3><p>Готую структуру сторінок і погоджуємо контент та блоки</p></div>
+          <div class="process-step reveal"><div class="num">03</div><h3>Розробка</h3><p>Верстаю сайт, додаю анімації та перевіряю адаптивність</p></div>
+          <div class="process-step reveal"><div class="num">04</div><h3>Запуск</h3><p>Публікую сайт і передаю вам готовий проєкт</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Заклик до співпраці -->
+  <section aria-labelledby="cta-heading">
+    <div class="container">
+      <div class="cta-band reveal">
+        <p class="eyebrow" style="justify-content:center;">заклик до співпраці</p>
+        <h2 id="cta-heading">Готові обговорити ваш проєкт</h2>
+        <p>Коротко розкажіть про ваш проєкт. Я запропоную оптимальне рішення, етапи роботи та орієнтовні терміни.</p>
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-primary">Обговорити проєкт</a>
+          <a href="#portfolio" class="btn btn-ghost">Переглянути роботи</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Контакти -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">контакти</p>
+        <h2 class="section-title reveal" id="contact-heading">Оберіть зручний спосіб зв'язку</h2>
+      </div>
+      <div class="contact-grid reveal-stagger">
+        <a class="contact-card reveal" href="https://t.me/vadym_shapovalov" target="_blank" rel="noopener noreferrer">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg></div>
+          <h3>Telegram</h3><span class="value">@vadym_shapovalov</span>
+        </a>
+        <a class="contact-card reveal" href="tel:+380963508693">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <h3>Телефон</h3><span class="value">+38 (096) 350-86-93</span>
+        </a>
+        <a class="contact-card reveal" href="https://instagram.com/vadymshapovalov_" target="_blank" rel="noopener noreferrer">
+          <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+          <h3>Instagram</h3><span class="value">@vadymshapovalov_</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <small>© <span id="year">2026</span> Vadym Shapovalov. Усі права захищено.</small>
+    <div class="footer-links">
+      <a href="#top">Нагору</a>
+      <a href="https://github.com/vadymshapovalov2050-ui" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" aria-label="Прокрутити нагору">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
